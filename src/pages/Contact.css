@@ -1,0 +1,29 @@
+.contact{
+    padding: 3rem 0;
+}
+.contact-content{
+    gap: 4rem;
+}
+.contact-title{
+    margin: 1rem 0;
+}
+.contact-img img{
+    max-width: 520px;
+}
+.contact-text p{
+    margin: 1.8rem 0;
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 800px){
+    .contact-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contact-title{
+        margin-top: 0;
+    }
+    .contact-img img{
+        margin-left: 0;
+        max-width: 50;
+    }
+}
